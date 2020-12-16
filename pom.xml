@@ -9,6 +9,7 @@
     <module>apitwo</module>
     <module>app</module>
     <module>common</module>
+    <module>apithree</module>
   </modules>
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -19,7 +20,7 @@
   <groupId>ro.jtonic.handson.bootstrapper</groupId>
   <artifactId>handson-bootstrapper</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>handson-bootstrapper</name>
+  <name>bootstrapper</name>
   <description>Multi maven spring boot application</description>
 
   <properties>

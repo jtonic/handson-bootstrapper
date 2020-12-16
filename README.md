@@ -39,6 +39,11 @@
  - [ ] Check the support in idea
  - [ ] Check used frameworks (M & V)
  - [ ] Check how removing an api module (+ correlated spring active profiles) works
+ - [x] An exposed API specification implemented by a Web API and used by another Web API. 
+    Eventually this API specification could end up in the common module. 
+    
+    __Notes:__ 
+    1. The common module could be transformed in a pom module and split up in many common modules, sau, `common-persistence`.
 
  
 ## API development guideline:

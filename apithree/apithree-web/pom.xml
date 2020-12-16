@@ -3,25 +3,19 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
-    <artifactId>handson-bootstrapper</artifactId>
+    <artifactId>apithree</artifactId>
     <groupId>ro.jtonic.handson.bootstrapper</groupId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>apitwo</artifactId>
+  <artifactId>apithree-web</artifactId>
 
   <dependencies>
     <dependency>
       <groupId>ro.jtonic.handson.bootstrapper</groupId>
       <artifactId>apithree-api</artifactId>
       <version>${project.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>ro.jtonic.handson.bootstrapper</groupId>
-      <artifactId>apithree-web</artifactId>
-      <version>${project.version}</version>
-      <scope>test</scope>
     </dependency>
   </dependencies>
 </project>

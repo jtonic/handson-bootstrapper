@@ -22,6 +22,11 @@
       <artifactId>apitwo</artifactId>
       <version>${project.version}</version>
     </dependency>
+    <dependency>
+      <groupId>ro.jtonic.handson.bootstrapper</groupId>
+      <artifactId>apithree-web</artifactId>
+      <version>${project.version}</version>
+    </dependency>
   </dependencies>
 
   <build>
