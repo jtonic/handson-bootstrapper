@@ -28,8 +28,8 @@
 - [ ] How is ADO pipeline affected?
 - [ ] Testing
   - [ ] Integration tests
-      - [ ] on a specific module
-          - [ ] IDE
+      - [x] on a specific module
+          - [x] IDE
           - [ ] maven command
       - [ ] entire project
           - [ ] IDE
@@ -38,6 +38,8 @@
   - [ ] e2e
  - [ ] Check the support in idea
  - [ ] Check used frameworks (M & V)
+ - [ ] Check how removing an api module (+ correlated spring active profiles) works
+
  
 ## API development guideline:
 
@@ -48,3 +50,4 @@
     name: ApiOne  
   ``` 
 - avoid spring bean collisions. @Qualifier or naming conventions... something else.
+- avoid `@ComponentScan` for multi API/multi module application
