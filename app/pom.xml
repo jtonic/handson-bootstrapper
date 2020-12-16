@@ -29,6 +29,13 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
+        <configuration>
+          <!-- fixme: why this profiles activation doesn't work -->
+          <profiles>
+            <profile>default</profile>
+            <profile>apitwo</profile>
+          </profiles>
+        </configuration>
       </plugin>
     </plugins>
   </build>
