@@ -9,7 +9,7 @@
       </pattern>
     </extension>
     <option name="PACKAGE_NAME" value="ro.jtonic.handson.bootstrapper.apitwo" />
-    <option name="MAIN_CLASS_NAME" value="ro.jtonic.handson.bootstrapper.apitwo.ApiTwoTest" />
+    <option name="MAIN_CLASS_NAME" value="ro.jtonic.handson.bootstrapper.apitwo.ApiTwoEntryPointTest" />
     <option name="METHOD_NAME" value="" />
     <option name="TEST_OBJECT" value="class" />
     <option name="PARAMETERS" value="" />

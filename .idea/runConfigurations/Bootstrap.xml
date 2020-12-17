@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="HandsonBootstrapperApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+  <configuration default="false" name="Bootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
     <module name="app" />
-    <option name="SPRING_BOOT_MAIN_CLASS" value="ro.jtonic.handson.bootstrapper.HandsonBootstrapperApplication" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="ro.jtonic.handson.bootstrapper.app.Bootstrap" />
     <option name="VM_PARAMETERS" value="-Dspring.profiles.active=default,apitwo" />
     <option name="ALTERNATIVE_JRE_PATH" />
     <method v="2">
