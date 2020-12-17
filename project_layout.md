@@ -35,11 +35,14 @@
 
 - [x] (pm) `parent`
     - [x] (jm) `bootstrapper`
-    - [x] (jm) `common`
+    - [x] (jm) `common`             -> Case 1) Common spring ctx slice (e.g.: Kafka, Cassandra conf)
     - [x] (jm) `apione`
     - [x] (jm) `apitwo`
-    - [x] (jm) `perf`       - performance tests (gatling)
-    - [x] (jm) `e2e`        - e2e tests (cucumber)
+    - [x] (pm) `apithree`
+        - [x] (jm) `apithree-spec`  -> expose an `internal api` (`spec`) 
+        - [x] (jm) `apithree-web`   -> expose an `external (web) api`
+    - [x] (jm) `perf`               -> performance tests (gatling)
+    - [x] (jm) `e2e`                -> e2e tests (cucumber)
     - [x] (f) `companion`
         - [x] (f) `swagger`
         - [x] (f) `dockers`

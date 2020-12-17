@@ -14,7 +14,7 @@
   <dependencies>
     <dependency>
       <groupId>ro.jtonic.handson.bootstrapper</groupId>
-      <artifactId>apithree-api</artifactId>
+      <artifactId>apithree-spec</artifactId>
       <version>${project.version}</version>
     </dependency>
   </dependencies>

@@ -13,7 +13,7 @@
   <artifactId>apithree</artifactId>
 
   <modules>
-    <module>apithree-api</module>
+    <module>apithree-spec</module>
     <module>apithree-web</module>
   </modules>
 </project>
