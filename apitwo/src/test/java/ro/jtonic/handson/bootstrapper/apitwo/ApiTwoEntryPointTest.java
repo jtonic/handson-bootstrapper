@@ -12,12 +12,12 @@ import ro.jtonic.handson.bootstrapper.apitwo.service.ApiTwoService;
 
 @SpringBootTest(
     classes = {
-        ApiTwo.class,
+        ApiTwoEntryPoint.class,
         ApiThree.class //fixme: Better to reduce the scope through spring ctx slicing.
     },
     properties = {"apitwo.name:Tony"})
 @ActiveProfiles(profiles = {"default", "apione"})
-public class ApiTwoTest {
+public class ApiTwoEntryPointTest {
 
   @Autowired
   private ApiTwoService apiTwoService;

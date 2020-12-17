@@ -14,9 +14,18 @@
   <dependencies>
     <dependency>
       <groupId>ro.jtonic.handson.bootstrapper</groupId>
+      <artifactId>common</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>ro.jtonic.handson.bootstrapper</groupId>
       <artifactId>apithree-spec</artifactId>
       <version>${project.version}</version>
     </dependency>
+
+    <!-- test dependencies -->
+
+    <!-- This dependency initially can be missed. Mocks could do the job of integration between the modules -->
+    <!--  This should stay with test scope -->
     <dependency>
       <groupId>ro.jtonic.handson.bootstrapper</groupId>
       <artifactId>apithree-web</artifactId>
