@@ -33,3 +33,7 @@ build/
 ### VS Code ###
 .vscode/
 .history/
+
+### macos
+.DS_Store
+
